@@ -1,13 +1,7 @@
 <p align="center">
   <h1 align="center">
-  Master Ventures
+  Master Ventures Devops/SRE Take Home Test
   </h1>
-</p>
-
-<p align="center">
-  <b>
-  Devops/SRE - Take Home Test
-  </b><br>
 </p>
 
 Welcome candidate and thank you for taking the time to complete the Master Ventures take-home test for our Devops/SRE position.
@@ -15,7 +9,7 @@ Welcome candidate and thank you for taking the time to complete the Master Ventu
 This task should take you no longer than 2 hours to complete. Please follow the instructions below:
 
 
-<br/><br/>
+<br/>
 
 ## Getting Started
 
@@ -34,6 +28,8 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. You should 
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+
+<br/>
 
 **Line 15** in the file `pages/index.js` reads the value set on the environment variable `NEXT_PUBLIC_APP_VERSION` and displays this on the browser
 
