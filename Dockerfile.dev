@@ -1,0 +1,10 @@
+FROM node:17.3
+ENV NODE_ENV=dev
+workdir /app
+# Default value for the NEXT_PUBLIC_APP_VERSION can be overwritten from Docker-compose
+ARG NEXT_PUBLIC_APP_VERSION=v1.0.0
+COPY ["package.json", "package-lock.json*", "./"]
+RUN npm install --dev
+COPY . .
+EXPOSE 3000
+CMD ["node","server.js"]
